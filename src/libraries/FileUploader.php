@@ -54,7 +54,7 @@ class FileUploader
 
     /**
      * set Path of file that will save there.
-     * if $path be null, that will sav in
+     * if $path be null, that will save in
      * "others" subFolder.
      *
      * @param string $path
