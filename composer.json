@@ -1,0 +1,17 @@
+{
+  "name": "farshidrezaei/file-uploader",
+  "description": "upload files easily.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Farshid Rezaei",
+      "email": "farshid.net1@yahoo.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "farshidrezaei\\file-uploader\\": "src/"
+    }
+  }
+}
