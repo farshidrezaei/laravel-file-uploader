@@ -1,6 +1,6 @@
 <?php
 
-use farshidrezaei\fileUploader\libraries\FileUploader;
+use FarshidRezaei\FileUploader\Libraries\FileUploader;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 if ( ! function_exists( 'fileUploader' ) ) {

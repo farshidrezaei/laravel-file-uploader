@@ -8,10 +8,5 @@
       "email": "farshid.net1@yahoo.com"
     }
   ],
-  "require": {},
-  "autoload": {
-    "psr-4": {
-      "farshidrezaei\\file-uploader\\": "src/"
-    }
-  }
+  "require": {}
 }

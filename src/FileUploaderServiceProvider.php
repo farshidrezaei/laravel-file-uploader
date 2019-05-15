@@ -1,6 +1,6 @@
 <?php
 
-namespace farshidrezaei\fileUploader;
+namespace FarshidRezaei\FileUploader;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,10 +8,10 @@ class FileUploaderServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        // Publish configuration files
-//        $this->publishes( [
-//            __DIR__ . '/configs/config.php' => config_path( 'file-uploader.php' ),
-//        ], 'config' );
+         //Publish configuration files
+        $this->publishes( [
+            __DIR__ . '/configs/config.php' => config_path( 'file-uploader.php' ),
+        ], 'config' );
 
 
     }
