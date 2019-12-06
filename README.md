@@ -25,13 +25,19 @@ php artisan vendor:publish --provider="farshidrezaei\fileUploader"
 after install package you can use this syntax to upload your files:
 
 ```php
-    FileUploader::file($request->file('your_file'))->name('avatar')->path('avatar')->save();
+    FileUploader::file($request->file('your_file'))
+->name('avatar')
+->path('avatar')
+->save();
 ```
 
 you can use helper function, too:
 
 ```php
-    fileUploader($request->file('your_file'))->name('avatar')->path('avatar')->save();
+    fileUploader($request->file('your_file'))
+->name('avatar')
+->path('avatar')
+->save();
 ```
 
 ### `file( UploadedFile $file )`
